@@ -17,5 +17,5 @@ A tiny utility to run your Python script across different Python and package ver
 
 ## Caveats
 
-- The docker commands are written to test x86 in M1 Mac. Modify the docker commands in `python-iter.sh` for other use cases.
+- The docker commands are written to test x86_64 in M1 Mac. Modify the docker commands in `python-iter.sh` for other use cases.
 - Modify the loop in `package-iter.sh` to test multiple packages.
